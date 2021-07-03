@@ -1,0 +1,18 @@
+En este dashboard se responde a la pregunta de qué tipos y cantidad de propiedades de cada tipo son ofertadas por Airbnb 
+en las diferentes zonas de Madrid, así como los precios que poseen. Esta pregunta podría ser formulada tanto por un cliente que
+esté buscando alojamiento en Madrid como por un inversor que esté valorando adquirir una propiedad para alquilarla.
+
+- En el mapa se seleccionan las diferentes zonas de Madrid (en el menú emergente se muestra un pie chart con la cantidad 
+de habitaciones de cada tipo ofertadas en la zona seleccionada), y dependiendo de dicha selección se filtran el resto 
+de vistas del dashboard. 
+
+- En la sección de los datos de la zona se pueden observar los datos de precios y cantidad de propiedades de 
+la zona seleccionada. 
+
+- En el gráfico de barras se muestra el precio global, compuesto de precio + fianza + tasa de limpieza,
+por tipo de propiedad. Además, en esa gráfica se pintan en color azul los tipos de propiedades que tienen un promedio de precio 
+mayor que el promedio del precio general de todas las propiedades, y en color naranja los que su promedio es menor. 
+
+- Por último se muestra un gráfico de burbujas, en el que se puede observar la cantidad de propiedades de cada tipo que se 
+ofertan en la zona seleccionada, que es proporcional al tamaño de cada burbuja. También se muestra en cada burbuja el promedio 
+del precio junto con el tipo de propiedad.
